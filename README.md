@@ -1,0 +1,2 @@
+# Senna
+Automobile Discord bot
