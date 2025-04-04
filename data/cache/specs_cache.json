@@ -1,0 +1,67 @@
+{
+  "make": {
+    "": [
+      "Acura",
+      "Alpine",
+      "Aston Martin",
+      "Audi",
+      "Bugatti",
+      "Chevrolet",
+      "Czinger",
+      "Dallara",
+      "Ferrari",
+      "Honda",
+      "Koenigsegg",
+      "Lamborghini",
+      "Lexus",
+      "Mclaren",
+      "Mercedes-AMG",
+      "Nissan",
+      "Porsche",
+      "Rimac",
+      "Spark",
+      "Toyota"
+    ],
+    "l": [
+      "Lamborghini",
+      "Lexus"
+    ],
+    "lam": [
+      "Lamborghini"
+    ]
+  },
+  "model": {
+    "Dallara": {
+      "": [
+        "DW12",
+        "F2",
+        "F3",
+        "SF23"
+      ]
+    },
+    "Chevrolet": {
+      "": [
+        "Camaro"
+      ]
+    },
+    "Lamborghini": {
+      "": [
+        "Huracan",
+        "Revuelto"
+      ],
+      "r": [
+        "Revuelto"
+      ]
+    }
+  },
+  "trim": {
+    "Lamborghini": {
+      "Revuelto": {
+        "": [
+          "-"
+        ]
+      }
+    }
+  },
+  "year": {}
+}

@@ -1,0 +1,431 @@
+{
+    "makes": [
+        "Acura",
+        "Alpine",
+        "Aston Martin",
+        "Audi",
+        "Bugatti",
+        "Chevrolet",
+        "Czinger",
+        "Dallara",
+        "Ferrari",
+        "Honda",
+        "Koenigsegg",
+        "Lamborghini",
+        "Lexus",
+        "Mclaren",
+        "Mercedes-AMG",
+        "Nissan",
+        "Porsche",
+        "Rimac",
+        "Spark",
+        "Toyota"
+    ],
+    "Acura": {
+        "models": [
+            "Integra"
+        ],
+        "Integra": {
+            "trims": [
+                "Type S",
+                "Type S DE5"
+            ],
+            "Type S": [
+                "2024"
+            ],
+            "Type S DE5": [
+                "2024"
+            ]
+        }
+    },
+    "Alpine": {
+        "models": [
+            "Alpenglow"
+        ],
+        "Alpenglow": {
+            "trims": [
+                "Hy6"
+            ],
+            "Hy6": [
+                "2024"
+            ]
+        }
+    },
+    "Aston Martin": {
+        "models": [
+            "Valkyrie"
+        ],
+        "Valkyrie": {
+            "trims": [
+                "AMR PRO"
+            ],
+            "AMR PRO": [
+                "2021"
+            ]
+        }
+    },
+    "Audi": {
+        "models": [
+            "R8",
+            "TT"
+        ],
+        "R8": {
+            "trims": [
+                "GT",
+                "V10 Performance Quattro"
+            ],
+            "GT": [
+                "2023"
+            ],
+            "V10 Performance Quattro": [
+                "2018"
+            ]
+        },
+        "TT": {
+            "trims": [
+                "RS"
+            ],
+            "RS": [
+                "2019"
+            ]
+        }
+    },
+    "Bugatti": {
+        "models": [
+            "Bolide"
+        ],
+        "Bolide": {
+            "trims": [
+                "-"
+            ],
+            "-": [
+                "2024"
+            ]
+        }
+    },
+    "Chevrolet": {
+        "models": [
+            "Camaro"
+        ],
+        "Camaro": {
+            "trims": [
+                "ZL1 1LE"
+            ],
+            "ZL1 1LE": [
+                "2018"
+            ]
+        }
+    },
+    "Czinger": {
+        "models": [
+            "21C"
+        ],
+        "21C": {
+            "trims": [
+                "Blackbird"
+            ],
+            "Blackbird": [
+                "2025"
+            ]
+        }
+    },
+    "Dallara": {
+        "models": [
+            "DW12",
+            "F2",
+            "F3",
+            "SF23"
+        ],
+        "DW12": {
+            "trims": [
+                "Hybrid"
+            ],
+            "Hybrid": [
+                "2024"
+            ]
+        },
+        "F2": {
+            "trims": [
+                "2024"
+            ],
+            "2024": [
+                "2024"
+            ]
+        },
+        "F3": {
+            "trims": [
+                "2025"
+            ],
+            "2025": [
+                "2025"
+            ]
+        },
+        "SF23": {
+            "trims": [
+                "-"
+            ],
+            "-": [
+                "2023"
+            ]
+        }
+    },
+    "Ferrari": {
+        "models": [
+            "Roma",
+            "SF90"
+        ],
+        "Roma": {
+            "trims": [
+                "-"
+            ],
+            "-": [
+                "2021"
+            ]
+        },
+        "SF90": {
+            "trims": [
+                "Stradale"
+            ],
+            "Stradale": [
+                "2019"
+            ]
+        }
+    },
+    "Honda": {
+        "models": [
+            "Civic"
+        ],
+        "Civic": {
+            "trims": [
+                "Type R"
+            ],
+            "Type R": [
+                "2022"
+            ]
+        }
+    },
+    "Koenigsegg": {
+        "models": [
+            "Jesko"
+        ],
+        "Jesko": {
+            "trims": [
+                "Attack"
+            ],
+            "Attack": [
+                "2021"
+            ]
+        }
+    },
+    "Lamborghini": {
+        "models": [
+            "Huracan",
+            "Revuelto"
+        ],
+        "Huracan": {
+            "trims": [
+                "Tecnica"
+            ],
+            "Tecnica": [
+                "2022"
+            ]
+        },
+        "Revuelto": {
+            "trims": [
+                "-"
+            ],
+            "-": [
+                "2024"
+            ]
+        }
+    },
+    "Lexus": {
+        "models": [
+            "LFA",
+            "RC F"
+        ],
+        "LFA": {
+            "trims": [
+                "-"
+            ],
+            "-": [
+                "2010"
+            ]
+        },
+        "RC F": {
+            "trims": [
+                "Track Edition"
+            ],
+            "Track Edition": [
+                "2020"
+            ]
+        }
+    },
+    "Mclaren": {
+        "models": [
+            "750S",
+            "Artura",
+            "MCL38",
+            "MP4/4"
+        ],
+        "750S": {
+            "trims": [
+                "-"
+            ],
+            "-": [
+                "2024"
+            ]
+        },
+        "Artura": {
+            "trims": [
+                "-"
+            ],
+            "-": [
+                "2023"
+            ]
+        },
+        "MCL38": {
+            "trims": [
+                "-"
+            ],
+            "-": [
+                "2024"
+            ]
+        },
+        "MP4/4": {
+            "trims": [
+                "-"
+            ],
+            "-": [
+                "1988"
+            ]
+        }
+    },
+    "Mercedes-AMG": {
+        "models": [
+            "ONE"
+        ],
+        "ONE": {
+            "trims": [
+                "-"
+            ],
+            "-": [
+                "2022"
+            ]
+        }
+    },
+    "Nissan": {
+        "models": [
+            "GT-R",
+            "Z"
+        ],
+        "GT-R": {
+            "trims": [
+                "NISMO"
+            ],
+            "NISMO": [
+                "2024"
+            ]
+        },
+        "Z": {
+            "trims": [
+                "NISMO"
+            ],
+            "NISMO": [
+                "2022"
+            ]
+        }
+    },
+    "Porsche": {
+        "models": [
+            "718",
+            "911",
+            "919"
+        ],
+        "718": {
+            "trims": [
+                "Cayman GT4 RS"
+            ],
+            "Cayman GT4 RS": [
+                "2022"
+            ]
+        },
+        "911": {
+            "trims": [
+                "GT2 RS Clubsport 25",
+                "GT3 RS"
+            ],
+            "GT2 RS Clubsport 25": [
+                "2022"
+            ],
+            "GT3 RS": [
+                "2022"
+            ]
+        },
+        "919": {
+            "trims": [
+                "Hybrid EVO"
+            ],
+            "Hybrid EVO": [
+                "2018"
+            ]
+        }
+    },
+    "Rimac": {
+        "models": [
+            "Nevera"
+        ],
+        "Nevera": {
+            "trims": [
+                "R"
+            ],
+            "R": [
+                "2025"
+            ]
+        }
+    },
+    "Spark": {
+        "models": [
+            "Gen3"
+        ],
+        "Gen3": {
+            "trims": [
+                "Evo"
+            ],
+            "Evo": [
+                "2024"
+            ]
+        }
+    },
+    "Toyota": {
+        "models": [
+            "Camry",
+            "GR Corolla",
+            "TS050"
+        ],
+        "Camry": {
+            "trims": [
+                "XSE NASCAR"
+            ],
+            "XSE NASCAR": [
+                "2024"
+            ]
+        },
+        "GR Corolla": {
+            "trims": [
+                "Core"
+            ],
+            "Core": [
+                "2025"
+            ]
+        },
+        "TS050": {
+            "trims": [
+                "Hybrid"
+            ],
+            "Hybrid": [
+                "2019"
+            ]
+        }
+    }
+}
