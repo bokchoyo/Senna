@@ -1,0 +1,8 @@
+{"time": "2024-11-24 19:07:17", "function": "contains()", "error": "Error while finding 783282103374053417 in users: bad auth : authentication failed, full error: {'ok': 0, 'errmsg': 'bad auth : authentication failed', 'code': 8000, 'codeName': 'AtlasError'}"}
+{"time": "2024-11-24 19:07:27", "function": "add_user()", "error": "Exception: OperationFailure(\"bad auth : authentication failed, full error: {'ok': 0, 'errmsg': 'bad auth : authentication failed', 'code': 8000, 'codeName': 'AtlasError'}\")"}
+{"time": "2024-11-24 19:07:54", "function": "contains()", "error": "Error while finding 783282103374053417 in users: bad auth : authentication failed, full error: {'ok': 0, 'errmsg': 'bad auth : authentication failed', 'code': 8000, 'codeName': 'AtlasError'}"}
+{"time": "2024-11-24 19:08:04", "function": "add_user()", "error": "Exception: OperationFailure(\"bad auth : authentication failed, full error: {'ok': 0, 'errmsg': 'bad auth : authentication failed', 'code': 8000, 'codeName': 'AtlasError'}\")"}
+{"time": "2024-11-24 19:37:58", "function": "contains()", "message": "Users contains None"}
+{"time": "2024-11-24 19:37:58", "function": "add_user()", "message": "Added user 783282103374053417"}
+{"time": "2024-11-24 19:39:50", "function": "contains()", "message": "Users contains None"}
+{"time": "2024-11-24 19:39:51", "function": "add_user()", "message": "Added user 783282103374053417"}

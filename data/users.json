@@ -1,0 +1,70 @@
+{
+  "783282103374053417": {
+    "Lamborghini Revuelto": {
+      "make": "Lamborghini",
+      "model": "Revuelto",
+      "trim": "",
+      "year": 2024,
+      "country": "Italy",
+      "value": 608400,
+      "top_speed_metric": 350,
+      "top_speed_imperial": 217,
+      "acceleration_metric": 2.5,
+      "acceleration_imperial": 2.4,
+      "power_metric": 1015,
+      "power_imperial": 1001,
+      "torque_metric": 725,
+      "torque_imperial": 535
+    },
+    "Rimac Nevera R": {
+      "make": "Rimac",
+      "model": "Nevera",
+      "trim": "R",
+      "year": 2025,
+      "country": "Croatia",
+      "value": 3000000,
+      "top_speed_metric": 420,
+      "top_speed_imperial": 261,
+      "acceleration_metric": 1.77,
+      "acceleration_imperial": 1.7,
+      "power_metric": 2136,
+      "power_imperial": 2107,
+      "torque_metric": 2651,
+      "torque_imperial": 1955
+    }
+  },
+  "883282103374053417": {
+    "Lamborghini Revuelto": {
+      "make": "Lamborghini",
+      "model": "Revuelto",
+      "trim": "",
+      "year": 2024,
+      "country": "Italy",
+      "value": 608400,
+      "top_speed_metric": 350,
+      "top_speed_imperial": 217,
+      "acceleration_metric": 2.5,
+      "acceleration_imperial": 2.4,
+      "power_metric": 1015,
+      "power_imperial": 1001,
+      "torque_metric": 725,
+      "torque_imperial": 535
+    },
+    "Rimac Nevera R": {
+      "make": "Rimac",
+      "model": "Nevera",
+      "trim": "R",
+      "year": 2025,
+      "country": "Croatia",
+      "value": 3000000,
+      "top_speed_metric": 420,
+      "top_speed_imperial": 261,
+      "acceleration_metric": 1.77,
+      "acceleration_imperial": 1.7,
+      "power_metric": 2136,
+      "power_imperial": 2107,
+      "torque_metric": 2651,
+      "torque_imperial": 1955
+    }
+  }
+}

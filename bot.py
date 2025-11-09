@@ -6,9 +6,9 @@ import discord
 from orjson import orjson
 from helpers.config import Config
 from discord.ext import commands
-from handlers.users import Users
-from handlers.cars import Cars
-from handlers.garages import Garages
+from database.users import Users
+from database.cars import Cars
+from database.garages import Garages
 
 class Bot(commands.Bot):
     def __init__(self, configurator, **kwargs):
@@ -23,7 +23,7 @@ class Bot(commands.Bot):
 
     async def setup_hook(self):
         self.makes = await self.car_db.get_makes()
-        await self.load_extension('cogs.specs')
+        self.load_extension('cogs.specs')
         await self.sync_commands()
 
     async def on_ready(self):
@@ -34,7 +34,7 @@ class Bot(commands.Bot):
     async def close(self):
         print("Closing cogs...")
 
-        cog = self.get_cog(r'C:\Users\bokch\git\Senna\cogs\specs.py')
+        cog = self.get_cog('Specs')
         if cog:
             cog.close()
         else:
@@ -42,7 +42,7 @@ class Bot(commands.Bot):
         await super().close()
 
     def close_cogs(self):
-        cog = self.get_cog(r'C:\Users\bokch\git\Senna\cogs\specs.py')
+        cog = self.get_cog('Specs')
         if cog:
             cog.close()
         else:

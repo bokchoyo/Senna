@@ -1,5 +1,5 @@
-from handlers.cars import Cars
-from handlers.users import Users
+from database.cars import Cars
+from database.users import Users
 from helpers.config import Config
 from helpers.logger import Logger
 from motor.motor_asyncio import AsyncIOMotorClient

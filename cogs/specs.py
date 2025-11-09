@@ -2,6 +2,7 @@ import discord
 from discord.ext import commands
 from orjson import orjson
 
+
 class Specs(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
@@ -25,6 +26,83 @@ class Specs(commands.Cog):
     def save_cache(self):
         with open(r'C:\Users\bokch\PyCharm\W1\data\specs_cache.json', 'wb') as f:
             f.write(orjson.dumps(self.cache, option=orjson.OPT_INDENT_2))
+
+    # async def get_nested_list(self, keys, fallback):
+    #     target = self.cars_list
+    #     for key in keys:
+    #         target = target.get(key, {})
+    #     return target.get(fallback, [])
+
+    # if list_type == 'make':
+    #     prev_list = cache.get(val[:-1], self.cars_list['makes'])
+    # else:
+    #     # Extract make, model, and trim from options for nested lookups
+    #     make = ctx.options.get('make', '')
+    #     model = ctx.options.get('model', '')
+    #     trim = ctx.options.get('trim', '')
+    #
+    #     # Determine the path based on the list_type
+    #     keys = [make, model, trim][:['model', 'trim', 'year'].index(list_type) + 1]
+    #     fallback_key = f"{list_type}_list"
+    #
+    #     # Cache setup for specific make, model, or trim level
+    #     current_cache = cache
+    #     for key in keys:
+    #         current_cache = current_cache.setdefault(key, {})
+    #
+    #     if val in current_cache:
+    #         return current_cache[val]
+    #     prev_list = await self.get_nested_list(keys, fallback_key)
+    #
+    # # Filter the list based on the input value
+    # new_list = [item for item in prev_list if item.lower().startswith(val)]
+    # cache[val] = new_list
+    # return new_list
+
+    # async def get_list(self, ctx: discord.AutocompleteContext, list_type, parent_key=None):
+    #     user_id = str(ctx.interaction.user.id)
+    #     val = ctx.value
+    #     cache = self.cache[list_type]
+    #     list_key = f"{list_type}_list"
+    #     if not val:
+    #         cache[user_id] = {}
+    #         if not parent_key:
+    #             return self.cars_list[list_key]
+    #         else:
+    #             parent_data = await self.get_nested_key(parent_key)
+    #             if list_type == 'year':
+    #                 return parent_data
+    #             return parent_data[list_key]
+    #     user_cache = cache.setdefault(user_id, {})
+    #     if len(val) != 1:
+    #         prev_list = user_cache.get(val[:-1], None)
+    #         if not prev_list:
+    #             last_cache = next(reversed(user_cache), None)
+    #             if last_cache:
+    #                 prev_list = user_cache[last_cache]
+    #                 if len(prev_list) == 1:
+    #                     return prev_list
+    #             else:
+    #                 if not parent_key:
+    #                     prev_list = self.cars_list[list_key]
+    #                 else:
+    #                     parent_data = await self.get_nested_key(parent_key)
+    #                     if list_type == 'year':
+    #                         prev_list = parent_data
+    #                     else:
+    #                         prev_list = parent_data[list_key]
+    #     else:
+    #         if not parent_key:
+    #             prev_list = self.cars_list[list_key]
+    #         else:
+    #             parent_data = await self.get_nested_key(parent_key)
+    #             if list_type == 'year':
+    #                 prev_list = parent_data
+    #             else:
+    #                 prev_list = parent_data[list_key]
+    #     new_list = [item for item in prev_list if item.lower().startswith(val.lower())]
+    #     user_cache[val] = new_list
+    #     return new_list
 
     async def get_list(self, ctx: discord.AutocompleteContext, list_type):
         val = ctx.value.lower()
@@ -58,9 +136,48 @@ class Specs(commands.Cog):
         if new_list:
             cache[val] = new_list
         return new_list
+    #
+    # async def list_makes(self, ctx: discord.AutocompleteContext):
+    #     return await self.get_list(ctx, 'make')
+    #
+    # async def list_models(self, ctx: discord.AutocompleteContext.options):
+    #     return await self.get_list(ctx, 'model')
+    #
+    # async def list_trims(self, ctx: discord.AutocompleteContext.options):
+    #     return await self.get_list(ctx, 'trim')
+    #
+    # async def list_years(self, ctx: discord.AutocompleteContext.options):
+    #     return await self.get_list(ctx, 'year')
 
     async def has_trim(self, make, model):
         return self.cars_list[make][model].get("trims", []) != ["-"]
+
+    # async def get_list(self, ctx: discord.AutocompleteContext, list_type):
+    #     val = ctx.value.lower()
+    #
+    #     if list_type == 'make':
+    #         options = self.cars_list['makes']
+    #     elif list_type == 'model':
+    #         make = ctx.options.get('make')
+    #         if not make:
+    #             return []
+    #         options = self.cars_list[make].get('models', [])
+    #     elif list_type == 'trim':
+    #         make = ctx.options.get('make')
+    #         model = ctx.options.get('model')
+    #         if not make or not model:
+    #             return []
+    #         options = self.cars_list[make][model].get('trims', [])
+    #     else:
+    #         make = ctx.options.get('make')
+    #         model = ctx.options.get('model')
+    #         trim = ctx.options.get('trim')
+    #         if not make or not model or not trim:
+    #             return []
+    #         options = self.cars_list[make][model].get(trim, [])
+    #
+    #     new_list = [item for item in options if item.lower().startswith(val)]
+    #     return new_list
 
     async def list_makes(self, ctx: discord.AutocompleteContext):
         return await self.get_list(ctx, 'make')

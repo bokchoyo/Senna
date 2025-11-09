@@ -1,0 +1,75 @@
+{"time": "2024-11-24 12:23:13", "function": "get_makes()", "message": "Retrieved list of makes"}
+{"time": "2024-11-24 12:25:06", "function": "get_makes()", "message": "Retrieved list of makes"}
+{"time": "2024-11-24 12:30:03", "function": "get_makes()", "message": "Retrieved list of makes"}
+{"time": "2024-11-24 12:43:54", "function": "get_makes()", "message": "Retrieved list of makes"}
+{"time": "2024-11-24 12:45:08", "function": "get_makes()", "message": "Retrieved list of makes"}
+{"time": "2024-11-24 12:45:39", "function": "get_makes()", "message": "Retrieved list of makes"}
+{"time": "2024-11-24 12:49:36", "function": "get_makes()", "message": "Retrieved list of makes"}
+{"time": "2024-11-24 12:53:46", "function": "get_makes()", "message": "Retrieved list of makes"}
+{"time": "2024-11-24 12:55:11", "function": "get_makes()", "message": "Retrieved list of makes"}
+{"time": "2024-11-24 13:57:42", "function": "get_makes()", "message": "Retrieved list of makes"}
+{"time": "2024-11-24 18:59:33", "function": "get_makes()", "message": "Retrieved list of makes"}
+{"time": "2024-11-24 19:02:35", "function": "get_makes()", "message": "Retrieved list of makes"}
+{"time": "2024-11-24 19:03:16", "function": "get_makes()", "message": "Retrieved list of makes"}
+{"time": "2024-11-24 19:04:33", "function": "get_makes()", "message": "Retrieved list of makes"}
+{"time": "2024-11-24 19:07:44", "function": "get_makes()", "message": "Retrieved list of makes"}
+{"time": "2024-11-24 19:36:30", "function": "get_makes()", "message": "Retrieved list of makes"}
+{"time": "2024-11-24 19:37:56", "function": "get_makes()", "message": "Retrieved list of makes"}
+{"time": "2024-11-24 19:39:24", "function": "get_makes()", "message": "Retrieved list of makes"}
+{"time": "2024-11-24 19:39:34", "function": "get_makes()", "message": "Retrieved list of makes"}
+{"time": "2024-11-25 00:04:55", "function": "get_makes()", "message": "Retrieved list of makes"}
+{"time": "2024-11-25 00:07:22", "function": "get_makes()", "message": "Retrieved list of makes"}
+{"time": "2024-11-25 00:12:50", "function": "get_makes()", "message": "Retrieved list of makes"}
+{"time": "2024-11-25 00:13:58", "function": "get_makes()", "message": "Retrieved list of makes"}
+{"time": "2024-11-25 00:15:50", "function": "get_makes()", "message": "Retrieved list of makes"}
+{"time": "2024-11-25 00:16:23", "function": "get_makes()", "message": "Retrieved list of makes"}
+{"time": "2024-11-25 00:31:30", "function": "get_makes()", "message": "Retrieved list of makes"}
+{"time": "2024-11-25 00:33:00", "function": "get_makes()", "message": "Retrieved list of makes"}
+{"time": "2024-11-26 09:43:26", "function": "get_car()", "message": "Retrieved default Acura, Integra, Type S: 2024"}
+{"time": "2024-11-26 09:43:26", "function": "get_specs_imperial()", "message": "Retrieved imperial specs for Acura Integra Type S None"}
+{"time": "2024-11-26 09:46:37", "function": "get_car()", "message": "Retrieved default Acura, Integra, Type S DE5: 2024"}
+{"time": "2024-11-26 09:46:37", "function": "get_specs_imperial()", "message": "Retrieved imperial specs for Acura Integra Type S DE5 None"}
+{"time": "2024-11-26 09:50:44", "function": "get_car()", "message": "Retrieved default Acura, Integra, Type S DE5: 2024"}
+{"time": "2024-11-26 09:50:44", "function": "get_specs_imperial()", "message": "Retrieved imperial specs for Acura Integra Type S DE5 None"}
+{"time": "2024-11-26 16:08:12", "function": "get_car()", "message": "Retrieved default Koenigsegg, Jesko, Attack: 2021"}
+{"time": "2024-11-26 16:08:12", "function": "get_specs_imperial()", "message": "Retrieved imperial specs for Koenigsegg Jesko Attack None"}
+{"time": "2024-11-28 00:07:03", "function": "get_car()", "message": "Retrieved car: Acura, Integra, Type S, 2024"}
+{"time": "2024-11-28 00:07:03", "function": "get_specs_imperial()", "message": "Retrieved imperial specs for Acura Integra Type S 2024"}
+{"time": "2024-11-29 12:02:06", "function": "get_car()", "message": "Retrieved car: Audi, TT, RS, 2019"}
+{"time": "2024-11-29 12:02:06", "function": "get_specs_imperial()", "message": "Retrieved imperial specs for Audi TT RS 2019"}
+{"time": "2024-11-29 12:46:46", "function": "get_car()", "message": "Retrieved default Audi, R8, GT: 2023"}
+{"time": "2024-11-29 12:46:46", "function": "get_specs_imperial()", "message": "Retrieved imperial specs for Audi R8 GT None"}
+{"time": "2024-11-29 14:05:13", "function": "get_car()", "message": "Retrieved default Audi, R8, GT: 2023"}
+{"time": "2024-11-29 14:05:13", "function": "get_specs_imperial()", "message": "Retrieved imperial specs for Audi R8 GT None"}
+{"time": "2024-11-29 14:19:49", "function": "get_car()", "message": "Retrieved default Audi, TT, RS: 2019"}
+{"time": "2024-11-29 14:19:49", "function": "get_specs_imperial()", "message": "Retrieved imperial specs for Audi TT RS None"}
+{"time": "2024-11-29 14:20:09", "function": "get_car()", "message": "Retrieved default Lamborghini, Revuelto, -: 2024"}
+{"time": "2024-11-29 14:20:09", "function": "get_specs_imperial()", "message": "Retrieved imperial specs for Lamborghini Revuelto - None"}
+{"time": "2024-11-29 14:21:02", "function": "get_car()", "message": "Retrieved default Audi, R8, V10 Performance Quattro: 2018"}
+{"time": "2024-11-29 14:21:02", "function": "get_specs_imperial()", "message": "Retrieved imperial specs for Audi R8 V10 Performance Quattro None"}
+{"time": "2024-11-29 14:21:24", "function": "get_car()", "message": "Retrieved car: Ferrari, SF90, Stradale, 2019"}
+{"time": "2024-11-29 14:21:24", "function": "get_specs_imperial()", "message": "Retrieved imperial specs for Ferrari SF90 Stradale 2019"}
+{"time": "2024-11-29 14:42:34", "function": "get_car()", "message": "Retrieved default Audi, TT, RS: 2019"}
+{"time": "2024-11-29 14:42:34", "function": "get_specs_imperial()", "message": "Retrieved imperial specs for Audi TT RS None"}
+{"time": "2024-11-29 14:42:46", "function": "get_car()", "message": "Retrieved default Bugatti, Bolide, -: 2024"}
+{"time": "2024-11-29 14:42:46", "function": "get_specs_imperial()", "message": "Retrieved imperial specs for Bugatti Bolide - None"}
+{"time": "2024-11-29 14:42:56", "function": "get_car()", "message": "Retrieved default Rimac, Nevera, R: 2025"}
+{"time": "2024-11-29 14:42:56", "function": "get_specs_imperial()", "message": "Retrieved imperial specs for Rimac Nevera R None"}
+{"time": "2024-11-29 14:43:08", "function": "get_car()", "message": "Retrieved default Koenigsegg, Jesko, Attack: 2021"}
+{"time": "2024-11-29 14:43:08", "function": "get_specs_imperial()", "message": "Retrieved imperial specs for Koenigsegg Jesko Attack None"}
+{"time": "2024-12-02 02:12:03", "function": "get_car()", "message": "Retrieved car: Acura, Integra, Type S, 2024"}
+{"time": "2024-12-02 02:12:03", "function": "get_specs_imperial()", "message": "Retrieved imperial specs for Acura Integra Type S 2024"}
+{"time": "2024-12-02 02:12:38", "function": "get_car()", "message": "Retrieved default Aston Martin, Valkyrie, AMR PRO: 2021"}
+{"time": "2024-12-02 02:12:38", "function": "get_specs_imperial()", "message": "Retrieved imperial specs for Aston Martin Valkyrie AMR PRO None"}
+{"time": "2024-12-02 02:24:06", "function": "get_car()", "message": "Retrieved default Lamborghini, Revuelto, -: 2024"}
+{"time": "2024-12-02 02:24:06", "function": "get_specs_imperial()", "message": "Retrieved imperial specs for Lamborghini Revuelto - None"}
+{"time": "2025-03-26 17:00:42", "function": "get_car()", "message": "Retrieved default Mercedes-AMG, ONE, -: 2022"}
+{"time": "2025-03-26 17:00:42", "function": "get_specs_imperial()", "message": "Retrieved imperial specs for Mercedes-AMG ONE - None"}
+{"time": "2025-03-26 18:53:06", "function": "get_car()", "message": "Retrieved default Acura, Integra, Type S: 2024"}
+{"time": "2025-03-26 18:53:06", "function": "get_specs_imperial()", "message": "Retrieved imperial specs for Acura Integra Type S None"}
+{"time": "2025-03-28 14:56:42", "function": "get_car()", "message": "Retrieved default Lamborghini, Revuelto, -: 2024"}
+{"time": "2025-03-28 14:56:42", "function": "get_specs_imperial()", "message": "Retrieved imperial specs for Lamborghini Revuelto - None"}
+{"time": "2025-04-04 14:17:07", "function": "get_car()", "message": "Retrieved default Czinger, 21C: Blackbird, 2025"}
+{"time": "2025-04-04 14:17:07", "function": "get_specs_imperial()", "message": "Retrieved imperial specs for Czinger 21C None None"}
+{"time": "2025-04-04 16:56:54", "function": "get_car()", "message": "Retrieved default Czinger, 21C: Blackbird, 2025"}
+{"time": "2025-04-04 16:56:54", "function": "get_specs_imperial()", "message": "Retrieved imperial specs for Czinger 21C None None"}
